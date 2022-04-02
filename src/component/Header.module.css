@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  background-color: rgb(240, 186, 186);
+}
+
+.headerwrapper {
+  height: 100px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerwrapper span:hover {
+  cursor: pointer;
+  background-color: yellow;
+}

@@ -1,0 +1,20 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+}
+.input input {
+  margin-left: 10px;
+  padding-left: 10px;
+  border: hidden;
+  height: 50px;
+}
+
+.input input:focus {
+  background-color: white;
+  border: transparent;
+}
