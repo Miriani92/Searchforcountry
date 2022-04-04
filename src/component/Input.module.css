@@ -1,20 +1,25 @@
 .input {
+  background-color: white;
+  height: 70px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  height: 100px;
-  width: 300px;
-  background-color: yellow;
+  border-radius: 60px;
 }
-.input input {
+.lightinput {
   margin-left: 10px;
   padding-left: 10px;
   border: hidden;
-  height: 50px;
+  background-color: white;
+  height: 30px;
 }
 
 .input input:focus {
   background-color: white;
   border: transparent;
+}
+
+.span {
+  color: white;
 }

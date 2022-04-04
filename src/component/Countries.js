@@ -11,6 +11,7 @@ const Countries = () => {
     searchForCountry,
     setFilterdRegions,
     error,
+    setSearchOfThecountry,
   } = useCountriesCtx();
 
   let someOfTheCountries = countries.slice(0, 15);
@@ -33,7 +34,7 @@ const Countries = () => {
   }
 
   return (
-    <div>
+    <div style={{ paddingBottom: "50px" }}>
       <div className={styles.countriswrapper}>
         {!error &&
           someOfTheCountries.map((country, index) => {

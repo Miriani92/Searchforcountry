@@ -5,3 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.darkinput,
+.darkinput:focus {
+  background: #333 !important;
+  color: white;
+}
+
+.inputwrapper {
+  background-color: #018786;
+}
+.darkspan {
+  color: #333;
+}
+.darkheader {
+  background-color: #3700b3;
+  color: white;
+}
+.darkselect {
+  background: #333;
+  color: white;
+  font-size: 20px;
+  height: 70px;
+}

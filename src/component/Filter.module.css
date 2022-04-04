@@ -1,6 +1,8 @@
-.select {
+.selectbutton {
   font-size: medium;
   height: auto;
+  height: 70px;
+  background-color: #333;
 }
 .firstoption {
   font-weight: 700;

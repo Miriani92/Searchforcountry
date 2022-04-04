@@ -42,7 +42,9 @@ const CountryContextProvider = (props) => {
   }, [fetchCountries]);
   const search = (name) => {
     setSearchOfThecountry(name);
-    const filterdCountry = countries.filter((c) => c.name === name);
+    const filterdCountry = countries.filter(
+      (c) => c.name.toUpperCase() === name.toUpperCase()
+    );
     setFilterdCountry(() => filterdCountry);
   };
 
@@ -76,6 +78,7 @@ const CountryContextProvider = (props) => {
         searchForCountry,
         setFilterdCountry,
         setFilterdRegions,
+        setSearchOfThecountry,
       }}
     >
       {props.children}
