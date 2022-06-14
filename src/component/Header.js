@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <main className={`${styles.header} ${dark ? "darkheader" : styles.header}`}>
       <section className={styles.headerwrapper}>
-        <div>Countries of the World</div>
+        <h1>Countries of the World</h1>
         <DarkmodeToggle />
       </section>
     </main>

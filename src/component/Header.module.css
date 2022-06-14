@@ -1,6 +1,6 @@
 .header {
   height: 100px;
-  background-color: #3d9e96;
+  background-image: linear-gradient(to right, #3d9e96, green);
   color: black;
 }
 

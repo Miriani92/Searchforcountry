@@ -7,3 +7,8 @@
 .firstoption {
   font-weight: 700;
 }
+@media screen and (max-width: 500px) {
+  .select {
+    width: 150px;
+  }
+}

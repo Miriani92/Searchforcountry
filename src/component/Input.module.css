@@ -23,3 +23,21 @@
 .span {
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .input {
+    margin-left: -20px;
+    width: 130px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 3px;
+  }
+  span {
+    color: transparent;
+  }
+  .lightinput {
+    max-width: 150px;
+    height: 30px;
+    margin-left: 10px;
+  }
+}

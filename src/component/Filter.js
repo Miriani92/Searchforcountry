@@ -32,6 +32,7 @@ const Filter = (props) => {
         style={darkSelect}
         value={selectValue}
         onChange={selectChangeHandler}
+        className={styles.select}
       >
         <option className={styles.firstoption} value={`Filter by Region`}>
           Filter by Region
